@@ -1,0 +1,71 @@
+{
+    // Text Editor
+    "files.autoSave": "afterDelay",
+    "files.hotExit": "onExitAndWindowClose",
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "all",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": "'ss01', 'ss03', 'ss04', 'ss05', 'onum'",
+
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+        "editor.acceptSuggestionOnEnter": "off",
+    },
+
+    "editor.tokenColorCustomizations": {
+        // https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide
+        "[Monokai]": {
+            // Haskell - these settings can't set inside specific language
+            "textMateRules": [
+                {
+                    "scope": "keyword",
+                    "settings": {
+                        "foreground": "#a0a0a0",
+                        "fontStyle": "bold",
+                    },
+                },
+                {
+                    "scope": "constant.numeric",
+                    "settings": {
+                        "foreground": "#e6db74",
+                    },
+                },
+                {
+                    "scope": "constant.other ",
+                    "settings": {
+                        "foreground": "#ee956e",
+                    },
+                },
+            ]
+        },
+    },
+
+    // Workbench
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "Monokai",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorCustomizations": {
+        // https://code.visualstudio.com/api/references/theme-color
+        "window.activeBorder": "#007acc",
+        "window.inactiveBorder": "#858585",
+        "statusBar.background": "#007acc",
+        "activityBar.inactiveForeground": "#858585",
+    },
+
+    // Window
+    "window.zoomLevel": 1,
+    "window.restoreWindows": "all",
+
+    // Features
+    "debug.showBreakpointsInOverviewRuler": true,
+
+    // Extensions
+    "C_Cpp.updateChannel": "Insiders",
+    "python.jediEnabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.untrackedChanges": "separate",
+    // git.untrackedChanges is the last one, all settings after it need to rearrange
+}
