@@ -16,23 +16,23 @@
     "editor.tokenColorCustomizations": {
         // https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide
         "[Monokai]": {
-            // Haskell - these settings can't set inside specific language
+            // Haskell specific (using source.haskell scope)
             "textMateRules": [
                 {
-                    "scope": "keyword",
+                    "scope": "source.haskell keyword",
                     "settings": {
                         "foreground": "#a0a0a0",
                         "fontStyle": "bold",
                     },
                 },
                 {
-                    "scope": "constant.numeric",
+                    "scope": "source.haskell constant.numeric",
                     "settings": {
                         "foreground": "#e6db74",
                     },
                 },
                 {
-                    "scope": "constant.other ",
+                    "scope": "source.haskell constant.other ",
                     "settings": {
                         "foreground": "#ee956e",
                     },
@@ -48,10 +48,18 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.colorCustomizations": {
         // https://code.visualstudio.com/api/references/theme-color
+        "statusBar.background": "#007acc", // base
         "window.activeBorder": "#007acc",
+
+        "activityBar.inactiveForeground": "#858585", // base
         "window.inactiveBorder": "#858585",
-        "statusBar.background": "#007acc",
-        "activityBar.inactiveForeground": "#858585",
+        "statusBar.noFolderBackground": "#858585",
+
+        "editor.lineHighlightBackground": "#3e3d32", // base
+        "tab.activeBackground": "#3e3d32",
+
+        "breadcrumb.background": "#272822", // base
+        "tab.inactiveBackground": "#272822",
     },
 
     // Window

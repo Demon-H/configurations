@@ -3,7 +3,7 @@
 ## __settings.json__  
 ### __How to open__:  
 Menu:  
-- Win/Linux - __File__ > __Preferences__ > __Settings__  
+- Windows/Linux - __File__ > __Preferences__ > __Settings__  
 - macOS - __Code__ > __Preferences__ > __Settings__  
 
 Shortcut:  
@@ -19,8 +19,8 @@ __More info__:
 [User and Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings)
 
 ### __Syntax Highlight__  
-> - View all current color value - Ctrl+Shift+P (Command Palette) with `Developer: Generate Color Theme From Current Settings`
-> - Debug grammars - Ctrl+Shift+P (Command Palette) with `Developer: Inspect TM Scopes`
+> - __View all current color value__ - Ctrl+Shift+P (Command Palette) with `Developer: Generate Color Theme From Current Settings`
+> - __Debug grammars__ - Ctrl+Shift+P (Command Palette) with `Developer: Inspect TM Scopes`
 
 
 __More info__: 
